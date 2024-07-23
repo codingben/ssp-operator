@@ -29,6 +29,7 @@ spec:
       containers:
       - command:
         - /manager
+        imagePullPolicy: Always
         args: ["--leader-elect"]
         env:
           - name: VALIDATOR_IMAGE

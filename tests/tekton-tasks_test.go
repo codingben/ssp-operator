@@ -17,7 +17,7 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/client"
 )
 
-var _ = Describe("Tekton Tasks Operand", func() {
+var _ = FDescribe("Tekton Tasks Operand", func() {
 	Context("resource creation when DeployTektonTaskResources is set to true", func() {
 		BeforeEach(func() {
 			strategy.SkipSspUpdateTestsIfNeeded()

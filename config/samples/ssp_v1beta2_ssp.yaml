@@ -9,8 +9,8 @@ spec:
   templateValidator:
     replicas: 2
   featureGates:
-    deployTektonTaskResources: true
-    deployVmConsoleProxy: true
+    deployTektonTaskResources: false
+    deployVmConsoleProxy: false
   tektonPipelines:
     namespace: kubevirt
   tektonTasks:
